@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap");
+
+html,
+body,
+:root {
+  height: 100%;
+  background: #ffffff;
+}
+
+/* ---------- project layOut max width -------->  */
+.max-w-screen-xl {
+  max-width: 1450px;
+}
+
+@media (max-width: 1023px) {
+  .max-w-screen-xl {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1550px) {
+  .max-w-screen-xl {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+/* <---------- project layOut max width end --------  */
+
+/* ---------------animations----------------> */
+.background_color_animation {
+  animation: rotateAndGlow 10s linear infinite,
+    moveBackground 20s linear infinite;
+}
+
+@keyframes rotateAndGlow {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 0 0 10px rgba(0, 59, 128, 0.5);
+  }
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 0 0 30px rgb(126, 7, 110);
+  }
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+}
