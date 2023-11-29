@@ -12,7 +12,7 @@ body,
 
 /* ---------- project layOut max width -------->  */
 .max-w-screen-xl {
-  max-width: 1450px;
+  max-width: 1500px;
 }
 
 @media (max-width: 1023px) {
@@ -23,8 +23,8 @@ body,
 }
 @media (min-width: 1024px) and (max-width: 1550px) {
   .max-w-screen-xl {
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
   }
 }
 /* <---------- project layOut max width end --------  */
@@ -56,4 +56,12 @@ body,
 }
 
 @media (min-width: 200px) and (max-width: 500px) {
+}
+
+/* ----------- text cetagory ---------- */
+
+.text-cetegory-heading {
+  font-size: 35px;
+  color: #2b0f42;
+  font-weight: 600;
 }
