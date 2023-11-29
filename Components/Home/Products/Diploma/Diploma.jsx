@@ -24,7 +24,7 @@ export const Diploma = () => {
           <div className="grid justify-center cursor-pointer">
             <Image
               width={100}
-              height={30}
+              height={60}
               className="rounded-full border-2 object-cover"
               src={semester1}
               alt=""
