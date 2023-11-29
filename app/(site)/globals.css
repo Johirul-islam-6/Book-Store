@@ -65,14 +65,3 @@ body,
   color: #2b0f42;
   font-weight: 600;
 }
-
-.slick-prev,
-.slick-next {
-  background-color: rgb(2, 2, 2) !important;
-  width: 80px !important;
-  height: 60px !important;
-  z-index: 100;
-}
-.slick-next {
-  right: 0px !important;
-}

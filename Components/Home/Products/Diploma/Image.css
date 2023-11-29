@@ -34,7 +34,7 @@
   height: 110%;
   background-size: cover;
   background-position: 0 0;
-  transition: transform calc(var(--d) * 1.5) var(--e);
+  transition: transform calc(var(--d) * 5) var(--e);
   pointer-events: none;
 }
 .card:after {
@@ -66,7 +66,7 @@
     rgba(0, 0, 0, 0.79) 100%
   );
   transform: translateY(-50%);
-  transition: transform calc(var(--d) * 2) var(--e);
+  transition: transform calc(var(--d) * 1) var(--e);
 }
 
 .content {
