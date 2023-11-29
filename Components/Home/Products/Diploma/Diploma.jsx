@@ -2,11 +2,12 @@ import "./Diploma.css";
 import Image from "next/image";
 import cetegoryImage from "../../../../app/Assets/Product/Diploma/book.webp";
 import semester1 from "../../../../app/Assets/Product/Diploma/1st.png";
+import DiplomaBookSlider from "./DiplomaBookSlider";
 
 export const Diploma = () => {
   return (
     <>
-      <div className="diploma-engineer py-[20px]">
+      <div className="diploma-engineer pt-[20px]">
         <div className="flex gap-1">
           <Image
             width={50}
@@ -101,6 +102,10 @@ export const Diploma = () => {
             />
             <h1 className="text-center pt-[5px]">Semester</h1>
           </div>
+        </div>
+
+        <div className="mt-10">
+          <DiplomaBookSlider />
         </div>
       </div>
     </>
