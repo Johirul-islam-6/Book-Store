@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "@/app/Assets/Navbar/logo.png";
+import logo from "@/app/Assets/Navbar/logo3.png";
 // import mocdtLogo from "../../Assets/mocdtLOGO.png";
 // import youtube from "../../Assets/youtube.svg";
 // import facebook from "../../Assets/facebook.svg";
@@ -13,7 +13,7 @@ import Link from "next/link";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <div className="mt-[10px] bg-[#0a0a0a]">
+    <div className="mt-[10px] bg-[#ffffff]">
       <div className=" mx-auto mt-5  md:p-2  flex flex-col  md:gap-10  max-w-screen-xl ">
         <div>
           <div className="md:mt-8">

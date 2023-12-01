@@ -9,7 +9,7 @@ import Button from "./Button";
 import "./Navbar.css";
 import "./Responsive.css";
 import Image from "next/image";
-import logo from "../../../app/Assets/Navbar/logo.png";
+import logo from "../../../app/Assets/Navbar/logo.svg";
 import store from "../../../app/Assets/Navbar/store.svg";
 import profile from "../../../app/Assets/Navbar/profile.svg";
 
