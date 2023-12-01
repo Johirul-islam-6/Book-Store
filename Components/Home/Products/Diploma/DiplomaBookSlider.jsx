@@ -40,7 +40,7 @@ export default class DiplomaBookSlider extends Component {
       ],
     };
     return (
-      <div className="px-10">
+      <div className="md:px-10">
         <Slider {...settings}>
           <ImageCard />
           <ImageCard />

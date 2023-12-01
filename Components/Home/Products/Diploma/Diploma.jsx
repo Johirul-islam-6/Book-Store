@@ -7,20 +7,20 @@ import DiplomaBookSlider from "./DiplomaBookSlider";
 export const Diploma = () => {
   return (
     <>
-      <div className="diploma-engineer pt-[20px]">
-        <div className="flex gap-1">
+      <div className="diploma-engineer pt-[40px]">
+        <div className="flex justify-center md:justify-start border-2 items-center gap-1 md:ms-5">
           <Image
             width={50}
             height={30}
-            className="rounded-full"
+            className="rounded-full "
             src={cetegoryImage}
             alt="diploma image"
           />
-          <h1 className="text-cetegory-heading">Diploma Engineer</h1>
+          <h1 className="text-cetegory-heading ps-1">Diploma Engineer</h1>
         </div>
         {/* --- category body--- */}
 
-        <div className="flex md:grid md:grid-flow-col md:grid-cols-8 flex-wrap gap-2  md:justify-start justify-center items-center mt-10 md:px-10">
+        <div className="semester-table flex md:grid md:grid-flow-col md:grid-cols-8 flex-wrap gap-2  md:justify-start justify-center items-center mt-10 md:px-10">
           {/* ------- category-card ------ */}
           <div className="grid justify-center cursor-pointer">
             <Image
@@ -30,7 +30,9 @@ export const Diploma = () => {
               src={semester1}
               alt=""
             />
-            <h1 className="text-center pt-[5px]">Semester</h1>
+            <h1 className=" text-center pt-[5px] diploma-semester-text">
+              Semester
+            </h1>
           </div>
           <div className="grid justify-center cursor-pointer">
             <Image
@@ -40,7 +42,9 @@ export const Diploma = () => {
               src={semester1}
               alt=""
             />
-            <h1 className="text-center pt-[5px]">Semester</h1>
+            <h1 className="text-center pt-[5px] diploma-semester-text">
+              Semester
+            </h1>
           </div>
           <div className="grid justify-center cursor-pointer">
             <Image
@@ -50,7 +54,9 @@ export const Diploma = () => {
               src={semester1}
               alt=""
             />
-            <h1 className="text-center pt-[5px]">Semester</h1>
+            <h1 className="text-center pt-[5px] diploma-semester-text">
+              Semester
+            </h1>
           </div>
           <div className="grid justify-center cursor-pointer">
             <Image
@@ -60,7 +66,9 @@ export const Diploma = () => {
               src={semester1}
               alt=""
             />
-            <h1 className="text-center pt-[5px]">Semester</h1>
+            <h1 className="text-center pt-[5px] diploma-semester-text">
+              Semester
+            </h1>
           </div>
           <div className="grid justify-center cursor-pointer">
             <Image
@@ -70,7 +78,9 @@ export const Diploma = () => {
               src={semester1}
               alt=""
             />
-            <h1 className="text-center pt-[5px]">Semester</h1>
+            <h1 className="text-center pt-[5px] diploma-semester-text">
+              Semester
+            </h1>
           </div>
           <div className="grid justify-center cursor-pointer">
             <Image
@@ -80,7 +90,9 @@ export const Diploma = () => {
               src={semester1}
               alt=""
             />
-            <h1 className="text-center pt-[5px]">Semester</h1>
+            <h1 className="text-center pt-[5px] diploma-semester-text">
+              Semester
+            </h1>
           </div>
           <div className="grid justify-center cursor-pointer">
             <Image
@@ -90,7 +102,9 @@ export const Diploma = () => {
               src={semester1}
               alt=""
             />
-            <h1 className="text-center pt-[5px]">Semester</h1>
+            <h1 className="text-center pt-[5px] diploma-semester-text">
+              Semester
+            </h1>
           </div>
           <div className="grid justify-center cursor-pointer">
             <Image
@@ -100,7 +114,9 @@ export const Diploma = () => {
               src={semester1}
               alt=""
             />
-            <h1 className="text-center pt-[5px]">Semester</h1>
+            <h1 className="text-center pt-[5px] diploma-semester-text">
+              Semester
+            </h1>
           </div>
         </div>
 
