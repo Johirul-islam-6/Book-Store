@@ -1,7 +1,7 @@
 import React from "react";
 import "./Image.css";
 import Image from "next/image";
-import book1 from "../../../../app/Assets/Product/Diploma/1st/one.webp";
+import book1 from "@/app/Assets/Product/Diploma/1st/one.webp";
 import Link from "next/link";
 
 export const ImageCard = () => {

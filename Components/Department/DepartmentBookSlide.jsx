@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import { ImageCard } from "./ImageCard";
 import "./Image.css";
 
-export default class ComputerSlideBook extends Component {
+export default class DepartmentBookSlide extends Component {
   render() {
     const settings = {
       dots: true,

@@ -155,7 +155,7 @@ export const Navbar = () => {
                     <li class="mt-2">
                       <Link
                         class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start "
-                        href=""
+                        href={"/diploma/CT"}
                       >
                         Civil Technology
                       </Link>
@@ -164,7 +164,7 @@ export const Navbar = () => {
                     <li class="">
                       <Link
                         class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
-                        href=""
+                        href={"/diploma/ET"}
                       >
                         Electrical Technology
                       </Link>
