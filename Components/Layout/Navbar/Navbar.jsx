@@ -149,69 +149,69 @@ export const Navbar = () => {
               <ul class="absolute left-0 z-50 hidden py-5  group-hover:flex dropdown-box border-2">
                 <div className="flex gap-x-10 w-[250px] ">
                   <ul className=" px-5">
-                    <h1 className="font-[700] ps-3 text-center">
-                      Diploma in Engineering
+                    <h1 className="font-[700] ps-3 text-start text-[#563A9F]">
+                      Polytechnic institute
                     </h1>
-                    <li class="">
+                    <li class="mt-2">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center "
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start "
                         href=""
                       >
-                        1st Semester Book
+                        Civil Technology
                       </Link>
                     </li>
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
-                        2nd Semester Book
+                        Electrical Technology
                       </Link>
                     </li>
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
-                        3rd Semester Book
+                        Computer Technology
                       </Link>
                     </li>
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
-                        4th Semester Book
+                        Mechanical Technology
                       </Link>
                     </li>
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
-                        5th Semester Book
+                        Electronics Technology
                       </Link>
                     </li>
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 ps-3 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
-                        6th Semester Book
+                        Electromedical Technology
                       </Link>
                     </li>
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
-                        7th Semester Book
+                        Power Technology
                       </Link>
                     </li>
                     <hr className="" />
@@ -238,7 +238,7 @@ export const Navbar = () => {
                     <h1 className="font-[700] ps-3 ">MBBS Books</h1>
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center "
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start "
                         href=""
                       >
                         1st Year Book
@@ -247,7 +247,7 @@ export const Navbar = () => {
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
                         2nd Years Book
@@ -256,7 +256,7 @@ export const Navbar = () => {
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
                         3rd Years Book
@@ -265,7 +265,7 @@ export const Navbar = () => {
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
                         4th Years Book
@@ -274,7 +274,7 @@ export const Navbar = () => {
                     <hr className="" />
                     <li class="">
                       <Link
-                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                        class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                         href=""
                       >
                         5th Years Book
@@ -327,7 +327,7 @@ export const Navbar = () => {
                 <div>
                   <li class="">
                     <Link
-                      class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                      class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                       href=""
                     >
                       Madrasa books
@@ -336,7 +336,7 @@ export const Navbar = () => {
                   <hr className="" />
                   <li class="">
                     <Link
-                      class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                      class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                       href=""
                     >
                       Islamic books
@@ -345,7 +345,7 @@ export const Navbar = () => {
                   <hr className="" />
                   <li class="">
                     <Link
-                      class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-center"
+                      class="rounded-t  py-2 px-4 block whitespace-no-wrap  color-a-tag text-start"
                       href=""
                     >
                       Admission books
