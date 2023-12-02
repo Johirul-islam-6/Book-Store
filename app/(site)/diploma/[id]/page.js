@@ -9,22 +9,37 @@ import React from 'react'
  const DiplomaSubjec = () => {
 
     const {id }= useParams()
-    let cetagory = ''
+    let DepartmentName = ''
 
     if(id ==="CT"){
-        cetagory = 'Civil Technology'
+        DepartmentName = 'Civil '
     }
     if(id ==="ET"){
-        cetagory = 'Electrical Technology'
+        DepartmentName = 'Electrical '
+    }
+    if(id ==="MT"){
+        DepartmentName = 'Mechanical  '
+    }
+    if(id ==="CST"){
+        DepartmentName = 'Computer Science '
+    }
+    if(id ==="ETT"){
+        DepartmentName = 'Electronic '
+    }
+    if(id ==="PT"){
+        DepartmentName = 'Power '
+    }
+    if(id ==="EMT"){
+        DepartmentName = 'Electromedical'
     }
 
 
   return (
-    <div>{cetagory}
+    <div>
     
-    <DepartmentBanner/>
+    <DepartmentBanner department={DepartmentName}/>
 
-    <AllBookList/>
+    <AllBookList department={DepartmentName}/>
     
     </div>
   )

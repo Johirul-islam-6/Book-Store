@@ -5,7 +5,7 @@ import cetegoryImage from "@/app/Assets/Product/Diploma/book.webp";
 import semester1 from "@/app/Assets/Product/Diploma/1st.png";
 import "./Department.css";
 
-export const DepartmentBanner = () => {
+export const DepartmentBanner = ({ department }) => {
   return (
     <>
       <div className=" w-[100%]  mx-auto flex justify-center items-center">
@@ -30,7 +30,9 @@ export const DepartmentBanner = () => {
             src={cetegoryImage}
             alt="diploma image"
           />
-          <h1 className="text-cetegory-heading ps-1">Civil Engineer Book</h1>
+          <h1 className="text-cetegory-heading ps-1">
+            {department} Technology Book
+          </h1>
         </div>
         {/* --- category body--- */}
 

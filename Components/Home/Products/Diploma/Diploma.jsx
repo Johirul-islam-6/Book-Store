@@ -43,79 +43,90 @@ export const Diploma = () => {
               </h1>
             </div>
           </Link>
-          <div className="grid justify-center cursor-pointer">
-            <Image
-              width={300}
-              height={30}
-              className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
-              src={semester1}
-              alt=""
-            />
-            <h1 className="text-center pt-[5px] diploma-semester-text">
-              Mechanical technology
-            </h1>
-          </div>
-          <div className="grid justify-center cursor-pointer">
-            <Image
-              width={300}
-              height={30}
-              className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
-              src={Electical}
-              alt=""
-            />
-            <h1 className="text-center pt-[5px] diploma-semester-text">
-              Electical technology
-            </h1>
-          </div>
-          <div className="grid justify-center cursor-pointer">
-            <Image
-              width={300}
-              height={30}
-              className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
-              src={computer}
-              alt=""
-            />
-            <h1 className="text-center pt-[5px] diploma-semester-text">
-              Computer Technology
-            </h1>
-          </div>
-          <div className="grid justify-center cursor-pointer">
-            <Image
-              width={300}
-              height={30}
-              className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
-              src={electronic}
-              alt=""
-            />
-            <h1 className="text-center pt-[5px] diploma-semester-text">
-              Electronic technology
-            </h1>
-          </div>
-
-          <div className="grid justify-center cursor-pointer">
-            <Image
-              width={300}
-              height={30}
-              className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
-              src={power}
-              alt=""
-            />
-            <h1 className="text-center pt-[5px] diploma-semester-text">
-              Power technology
-            </h1>
-          </div>
-          <div className="grid justify-center cursor-pointer">
-            <Image
-              width={300}
-              height={30}
-              className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
-              src={Electromedical}
-              alt=""
-            />
-            <h1 className="text-center pt-[5px] diploma-semester-text ">
-              Electromedical technology
-            </h1>
-          </div>
+          <Link href={"/diploma/MT"}>
+            <div className="grid justify-center cursor-pointer">
+              <Image
+                width={300}
+                height={30}
+                className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
+                src={semester1}
+                alt=""
+              />
+              <h1 className="text-center pt-[5px] diploma-semester-text">
+                Mechanical technology
+              </h1>
+            </div>
+          </Link>
+          <Link href={"/diploma/ET"}>
+            <div className="grid justify-center cursor-pointer">
+              <Image
+                width={300}
+                height={30}
+                className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
+                src={Electical}
+                alt=""
+              />
+              <h1 className="text-center pt-[5px] diploma-semester-text">
+                Electical technology
+              </h1>
+            </div>
+          </Link>
+          <Link href={"/diploma/CST"}>
+            <div className="grid justify-center cursor-pointer">
+              <Image
+                width={300}
+                height={30}
+                className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
+                src={computer}
+                alt=""
+              />
+              <h1 className="text-center pt-[5px] diploma-semester-text">
+                Computer Technology
+              </h1>
+            </div>
+          </Link>
+          <Link href={"/diploma/ETT"}>
+            <div className="grid justify-center cursor-pointer">
+              <Image
+                width={300}
+                height={30}
+                className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
+                src={electronic}
+                alt=""
+              />
+              <h1 className="text-center pt-[5px] diploma-semester-text">
+                Electronic technology
+              </h1>
+            </div>
+          </Link>
+          <Link href={"/diploma/PT"}>
+            <div className="grid justify-center cursor-pointer">
+              <Image
+                width={300}
+                height={30}
+                className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
+                src={power}
+                alt=""
+              />
+              <h1 className="text-center pt-[5px] diploma-semester-text">
+                Power technology
+              </h1>
+            </div>
+          </Link>
+          <Link href={"/diploma/EMT"}>
+            <div className="grid justify-center cursor-pointer">
+              <Image
+                width={300}
+                height={30}
+                className="rounded-full border-2 object-cover h-[160px] w-[160px] cetagory-image"
+                src={Electromedical}
+                alt=""
+              />
+              <h1 className="text-center pt-[5px] diploma-semester-text ">
+                Electromedical technology
+              </h1>
+            </div>
+          </Link>
         </div>
 
         <div className="mt-10">
