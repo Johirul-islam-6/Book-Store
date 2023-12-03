@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+.activeBorder {
+  border: 2px solid #573ba2;
+}
+
 .slick-prev,
 .slick-next {
   background-color: #573ba2 !important;

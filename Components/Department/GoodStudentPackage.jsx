@@ -28,7 +28,7 @@ export const GoodStudentPackage = () => {
                   </span>
                 </p>
 
-                <div class="opacity-60 text-sm ">
+                <div class="opacity-60 text-sm hidden md:block">
                   এক জন নিয়মিত ভালো ছাত্রের জন্য তো একটু ডিসকাউন্ট থাকছি । যারা
                   যারা নিতে চাও তাদের জন্য রয়েছে ৩০০ টাকা ডিসকাউন্ট । এটা সীমিত
                   কিছুদিনের জন্য থাকছে তাই জলদি করো । আমরা বইগুলো খুব যত সহকারে

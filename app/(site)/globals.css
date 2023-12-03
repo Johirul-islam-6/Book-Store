@@ -18,7 +18,9 @@ body,
 .IBM {
   font-family: "IBM Plex Sans", sans-serif;
 }
-
+.crossed-text {
+  text-decoration: line-through;
+}
 /* ---------- project layOut max width -------->  */
 .max-w-screen-xl {
   max-width: 1500px;

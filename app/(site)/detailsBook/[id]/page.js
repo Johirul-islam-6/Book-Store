@@ -11,7 +11,7 @@ const EachBookInfo = () => {
   return (
     <>
   
-  <div className="mt-2 w-[80%] mx-auto">
+  <div className="mt-2 w-[100%] md:w-[80%] mx-auto ">
     <SingelBookInf/>
   </div>
    

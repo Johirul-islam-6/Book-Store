@@ -1,11 +1,22 @@
+"use-client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import image01 from "@/app/Assets/Product/Diploma/Civil/civil.webp";
 import cetegoryImage from "@/app/Assets/Product/Diploma/book.webp";
 import semester1 from "@/app/Assets/Product/Diploma/1st.png";
 import "./Department.css";
 
-export const DepartmentBanner = ({ department }) => {
+export const DepartmentBanner = ({ department, getSemesterNumber }) => {
+  const [semesterBook, setSemesterBook] = useState("all");
+  const [activeborder, setActiveBorder] = useState(null);
+
+  getSemesterNumber(semesterBook);
+
+  const handleClick = (semester) => {
+    setActiveBorder(semester);
+    setSemesterBook(semester);
+  };
+
   return (
     <>
       <div className=" w-[100%]  mx-auto flex justify-center items-center">
@@ -26,7 +37,7 @@ export const DepartmentBanner = ({ department }) => {
           <Image
             width={50}
             height={30}
-            className="rounded-full "
+            className=" rounded-full "
             src={cetegoryImage}
             alt="diploma image"
           />
@@ -38,11 +49,16 @@ export const DepartmentBanner = ({ department }) => {
 
         <div className="semester-table flex md:grid md:grid-flow-col md:grid-cols-8 flex-wrap gap-2  md:justify-start justify-center items-center mt-10 md:px-10">
           {/* ------- category-card ------ */}
-          <div className="grid justify-center cursor-pointer">
+          <div
+            onClick={() => handleClick("all")}
+            className="grid justify-center cursor-pointer"
+          >
             <Image
               width={100}
               height={60}
-              className="rounded-full border-2 object-cover"
+              className={`rounded-full border-2 object-cover ${
+                activeborder === "all" ? "activeBorder" : "hello"
+              }`}
               src={semester1}
               alt=""
             />
@@ -50,11 +66,17 @@ export const DepartmentBanner = ({ department }) => {
               All Semester
             </h1>
           </div>
-          <div className="grid justify-center cursor-pointer">
+
+          <div
+            onClick={() => handleClick("1st")}
+            className="grid justify-center cursor-pointer"
+          >
             <Image
               width={100}
               height={30}
-              className="rounded-full border-2 object-cover"
+              className={`rounded-full border-2 object-cover ${
+                activeborder === "1st" ? "activeBorder" : "hello"
+              }`}
               src={semester1}
               alt=""
             />
@@ -62,11 +84,16 @@ export const DepartmentBanner = ({ department }) => {
               Semester
             </h1>
           </div>
-          <div className="grid justify-center cursor-pointer">
+          <div
+            onClick={() => handleClick("2nd")}
+            className="grid justify-center cursor-pointer"
+          >
             <Image
               width={100}
               height={30}
-              className="rounded-full border-2 object-cover"
+              className={`rounded-full border-2 object-cover ${
+                activeborder === "2nd" ? "activeBorder" : "hello"
+              }`}
               src={semester1}
               alt=""
             />
@@ -74,11 +101,16 @@ export const DepartmentBanner = ({ department }) => {
               Semester
             </h1>
           </div>
-          <div className="grid justify-center cursor-pointer">
+          <div
+            onClick={() => handleClick("3rd")}
+            className="grid justify-center cursor-pointer"
+          >
             <Image
               width={100}
               height={30}
-              className="rounded-full border-2 object-cover"
+              className={`rounded-full border-2 object-cover ${
+                activeborder === "3rd" ? "activeBorder" : "hello"
+              }`}
               src={semester1}
               alt=""
             />
@@ -86,11 +118,16 @@ export const DepartmentBanner = ({ department }) => {
               Semester
             </h1>
           </div>
-          <div className="grid justify-center cursor-pointer">
+          <div
+            onClick={() => handleClick("4th")}
+            className="grid justify-center cursor-pointer"
+          >
             <Image
               width={100}
               height={30}
-              className="rounded-full border-2 object-cover"
+              className={`rounded-full border-2 object-cover ${
+                activeborder === "4th" ? "activeBorder" : "hello"
+              }`}
               src={semester1}
               alt=""
             />
@@ -98,11 +135,16 @@ export const DepartmentBanner = ({ department }) => {
               Semester
             </h1>
           </div>
-          <div className="grid justify-center cursor-pointer">
+          <div
+            onClick={() => handleClick("5th")}
+            className="grid justify-center cursor-pointer"
+          >
             <Image
               width={100}
               height={30}
-              className="rounded-full border-2 object-cover"
+              className={`rounded-full border-2 object-cover ${
+                activeborder === "5th" ? "activeBorder" : "hello"
+              }`}
               src={semester1}
               alt=""
             />
@@ -110,11 +152,16 @@ export const DepartmentBanner = ({ department }) => {
               Semester
             </h1>
           </div>
-          <div className="grid justify-center cursor-pointer">
+          <div
+            onClick={() => handleClick("6th")}
+            className="grid justify-center cursor-pointer"
+          >
             <Image
               width={100}
               height={30}
-              className="rounded-full border-2 object-cover"
+              className={`rounded-full border-2 object-cover ${
+                activeborder === "6th" ? "activeBorder" : "hello"
+              }`}
               src={semester1}
               alt=""
             />
@@ -122,11 +169,16 @@ export const DepartmentBanner = ({ department }) => {
               Semester
             </h1>
           </div>
-          <div className="grid justify-center cursor-pointer">
+          <div
+            onClick={() => handleClick("7th")}
+            className="grid justify-center cursor-pointer"
+          >
             <Image
               width={100}
               height={30}
-              className="rounded-full border-2 object-cover"
+              className={`rounded-full border-2 object-cover ${
+                activeborder === "7th" ? "activeBorder" : "hello"
+              }`}
               src={semester1}
               alt=""
             />

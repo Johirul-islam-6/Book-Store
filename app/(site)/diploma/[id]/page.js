@@ -4,9 +4,11 @@
 import { AllBookList } from '@/Components/Department/AllBookList'
 import { DepartmentBanner } from '@/Components/Department/Department'
 import { useParams } from 'next/navigation'
-import React from 'react'
+import React, { useState } from 'react'
 
  const DiplomaSubjec = () => {
+
+    const [SemesterNumber, setSemester] = useState()
 
     const {id }= useParams()
     let DepartmentName = ''
@@ -33,13 +35,21 @@ import React from 'react'
         DepartmentName = 'Electromedical'
     }
 
+    // ---- get semester a function data provide onather components ----
+
+    const getSemesterNumber = (number) =>{
+        setSemester(number)
+    }
+
+    
+
 
   return (
     <div>
     
-    <DepartmentBanner department={DepartmentName}/>
+    <DepartmentBanner getSemesterNumber={getSemesterNumber} department={DepartmentName}/>
 
-    <AllBookList department={DepartmentName}/>
+    <AllBookList SemesterNumber={SemesterNumber} department={DepartmentName}/>
     
     </div>
   )
