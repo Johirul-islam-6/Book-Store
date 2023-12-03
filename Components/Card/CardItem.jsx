@@ -1,7 +1,7 @@
 "use client";
 import "./Card.css";
 import Image from "next/image";
-import Link from "next/link";
+
 import React, { useState } from "react";
 import { FaRegCheckCircle, FaShoppingBag } from "react-icons/fa";
 import img01 from "@/app/Assets/Product/Diploma/1st/one.webp";
