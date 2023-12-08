@@ -15,6 +15,7 @@ import profile from "../../../app/Assets/Navbar/profile.svg";
 
 import bangladesh from "../../../app/Assets/Navbar/bangladesh.png";
 import { SearchBar } from "./SearchBar";
+import { FaRegUserCircle } from "react-icons/fa";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -90,8 +91,8 @@ export const Navbar = () => {
             {/* -----------------  profile ---------------> */}
             <div className=" profile-container w-3/12 flex justify-end">
               {/* --- sing In ---- */}
-              <ul className="flex items-center">
-                <li className="py-4 pe-3  duration-200 cursor-pointer active">
+              <ul className="flex items-center pe-4">
+                <li className="py-4 duration-200 cursor-pointer active">
                   <Link
                     className="hover-menu color-a-tag profile-image"
                     href=""
@@ -106,11 +107,67 @@ export const Navbar = () => {
                     />
                   </Link>
 
-                  <Link className="hover-menu color-a-tag singIN" href="">
+                  <Link
+                    className="hover-menu color-a-tag singIN"
+                    href="/registration"
+                  >
                     Sing In
                   </Link>
                 </li>
-                <li className="py-4   duration-200 cursor-pointer active">
+
+                <li className="py-4   duration-200 cursor-pointer active ">
+                  <div class=" group relative p-4 duration-200 cursor-pointer  ">
+                    <button class="hover-menu color-a-tag flex items-center">
+                      <Image
+                        width={20}
+                        height={9}
+                        quality={100}
+                        className=""
+                        src={profile}
+                        alt=""
+                      />
+                    </button>
+
+                    <ul class="absolute right-[-30px] z-50 hidden py-1 mt-1  group-hover:flex dropdown-box border-2">
+                      <div className="flex gap-x-10 px-3 ">
+                        <ul className="">
+                          <li class="">
+                            <Link
+                              class="text-[14px]  py-1  block text-center  color-a-tag IBM "
+                              href=""
+                            >
+                              Account
+                            </Link>
+                          </li>
+                          <hr className="" />
+
+                          <li class="">
+                            <Link
+                              class="text-[14px]  py-1  block text-center  color-a-tag IBM"
+                              href=""
+                            >
+                              Wishlists
+                            </Link>
+                          </li>
+                          <hr className="" />
+
+                          <li class="">
+                            <Link
+                              class="text-[14px]  py-1  block text-center  color-a-tag IBM"
+                              href=""
+                            >
+                              Logout
+                            </Link>
+                          </li>
+                          <hr className="" />
+
+                          <hr className="" />
+                        </ul>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+                <li className="py-4  px-1 duration-200 cursor-pointer active">
                   <Link className="hover-menu color-a-tag" href="/card">
                     <Image
                       width={20}
