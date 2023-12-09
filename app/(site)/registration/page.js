@@ -24,7 +24,7 @@ const Registration = () => {
             <h2 class="text-4xl font-bold text-[#2c293b]  GT">Registration</h2>
           </div>
           <form>
-            <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2 md:px-5">
+            <div class="grid grid-cols-1 gap-x-6 gap-y-4 mt-4 sm:grid-cols-2 md:px-5">
               <div>
                 <label
                   class="text-[#000b] md:text-[14px] font-bold  md:ps-2 IN"
@@ -35,7 +35,7 @@ const Registration = () => {
                 <input
                   id="username"
                   type="text"
-                  class="input block border border-gray-300 focus:border-pitch-black  py-3 px-3 w-full focus:outline-none mt-2"
+                  class="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
                 />
               </div>
 
@@ -50,7 +50,7 @@ const Registration = () => {
                   id="roll"
                   placeholder="Ex: 574206"
                   type="number"
-                  class="input block border border-gray-300 focus:border-pitch-black  py-3 px-3 w-full focus:outline-none mt-2"
+                  class="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
                 />
               </div>
 
@@ -65,7 +65,7 @@ const Registration = () => {
                   id="phone"
                   placeholder="Ex: 017xxxxxxxx"
                   type="phone"
-                  class="input block border border-gray-300 focus:border-pitch-black  py-3 px-3 w-full focus:outline-none mt-2"
+                  class="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
                 />
               </div>
 
@@ -76,7 +76,7 @@ const Registration = () => {
                 >
                   Gander
                 </label>
-                <select class="input block border border-gray-300 focus:border-pitch-black  py-3 px-3 w-full focus:outline-none mt-2">
+                <select class="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1">
                   <option className="bg-[#E8F0FE]">Gender</option>
                   <option>Female</option>
                   <option>Male</option>
@@ -94,7 +94,7 @@ const Registration = () => {
                 <input
                   id="emailAddress"
                   type="email"
-                  class="input block border border-gray-300 focus:border-pitch-black  py-3 px-3 w-full focus:outline-none mt-2"
+                  class="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
                 />
               </div>
 
@@ -104,7 +104,7 @@ const Registration = () => {
                 </label>
                 <div className="eye_div">
                   <input
-                    className="input block border border-gray-300 focus:border-pitch-black  py-3 px-3 w-full focus:outline-none mt-2"
+                    className="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
                     type={passValue.showPassword ? "text" : "password"}
                     onChange={handlePasswordChange("password")}
                     value={passValue.password}
@@ -223,7 +223,7 @@ const Registration = () => {
                 </Link>
               </h2>
             </div>
-            <div class="flex justify-center mt-2">
+            <div class="flex justify-center mt-1">
               <button
                 type="submit"
                 class="my-5 px-12 justify-center bg-[#BF1F49] text-gray-100 py-3  rounded-md tracking-wide

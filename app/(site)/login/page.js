@@ -26,7 +26,7 @@ const Login = () => {
         </div>
         <section class="max-w-2xl px-5 pt-7 mx-auto rounded-md shadow-md bg-[#FFFFFF] mt-3">
           <form>
-            <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-1 md:px-5">
+            <div class="grid grid-cols-1 gap-x-6 gap-y-4 mt-4 sm:grid-cols-1 md:px-5">
               <div>
                 <label
                   class="text-[#000b] md:text-[14px] font-bold  md:ps-2 IN"
@@ -37,7 +37,7 @@ const Login = () => {
                 <input
                   id="emailAddress"
                   type="email"
-                  class="input block border border-gray-300 focus:border-pitch-black  py-3 px-3 w-full focus:outline-none mt-2"
+                  class="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-2"
                 />
               </div>
 
@@ -47,7 +47,7 @@ const Login = () => {
                 </label>
                 <div className="eye_div">
                   <input
-                    className="input block border border-gray-300 focus:border-pitch-black  py-3 px-3 w-full focus:outline-none mt-2"
+                    className="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-2"
                     type={passValue.showPassword ? "text" : "password"}
                     onChange={handlePasswordChange("password")}
                     value={passValue.password}

@@ -91,24 +91,10 @@ export const Navbar = () => {
             {/* -----------------  profile ---------------> */}
             <div className=" profile-container w-3/12 flex justify-end">
               {/* --- sing In ---- */}
-              <ul className="flex items-center pe-4">
-                <li className="py-4 duration-200 cursor-pointer active">
+              <ul className="flex items-center md:pe-4">
+                <li className="py-4 duration-200 cursor-pointer active pe-2">
                   <Link
-                    className="hover-menu color-a-tag profile-image"
-                    href=""
-                  >
-                    <Image
-                      width={20}
-                      height={9}
-                      quality={100}
-                      className=""
-                      src={profile}
-                      alt=""
-                    />
-                  </Link>
-
-                  <Link
-                    className="hover-menu color-a-tag singIN"
+                    className="hover-menu color-a-tag singIN text-[#481D65] font-extrabold"
                     href="/registration"
                   >
                     Sing In
@@ -128,13 +114,13 @@ export const Navbar = () => {
                       />
                     </button>
 
-                    <ul class="absolute right-[-30px] z-50 hidden py-1 mt-1  group-hover:flex dropdown-box border-2">
-                      <div className="flex gap-x-10 px-3 ">
-                        <ul className="">
+                    <ul class="absolute right-[-30px] z-50 hidden py-1 mt-2  group-hover:flex dropdown-box border-2">
+                      <div className="flex gap-x-10  ">
+                        <ul className="w-[120px] ">
                           <li class="">
                             <Link
                               class="text-[14px]  py-1  block text-center  color-a-tag IBM "
-                              href=""
+                              href="/account"
                             >
                               Account
                             </Link>
@@ -144,7 +130,7 @@ export const Navbar = () => {
                           <li class="">
                             <Link
                               class="text-[14px]  py-1  block text-center  color-a-tag IBM"
-                              href=""
+                              href="wishlists"
                             >
                               Wishlists
                             </Link>
@@ -159,9 +145,7 @@ export const Navbar = () => {
                               Logout
                             </Link>
                           </li>
-                          <hr className="" />
-
-                          <hr className="" />
+                          {/* <hr className="" /> */}
                         </ul>
                       </div>
                     </ul>
