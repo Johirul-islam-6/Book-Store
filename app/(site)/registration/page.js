@@ -27,7 +27,7 @@ const Registration = () => {
             <div class="grid grid-cols-1 gap-x-6 gap-y-4 mt-4 sm:grid-cols-2 md:px-5">
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
+                  class="text-[#000b] md:text-[14px] text-[14px] ps-[2px] font-bold  md:ps-1 IN"
                   for="username"
                 >
                   Full Name
@@ -41,7 +41,7 @@ const Registration = () => {
 
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
+                  class="text-[#000b] md:text-[14px] text-[14px] ps-[2px] font-bold  md:ps-1 IN"
                   for="phone"
                 >
                   Student Roll
@@ -50,13 +50,13 @@ const Registration = () => {
                   id="roll"
                   placeholder="Ex: 574206"
                   type="number"
-                  class="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
+                  class="input block border border-gray-300 placeholder:text-[14px] focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
                 />
               </div>
 
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
+                  class="text-[#000b] md:text-[14px] text-[14px] ps-[2px] font-bold  md:ps-1 IN"
                   for="phone"
                 >
                   Phone
@@ -65,13 +65,13 @@ const Registration = () => {
                   id="phone"
                   placeholder="Ex: 017xxxxxxxx"
                   type="phone"
-                  class="input block border border-gray-300 focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
+                  class="input block border border-gray-300 placeholder:text-[14px] focus:border-pitch-black  py-2 px-3 w-full focus:outline-none mt-1"
                 />
               </div>
 
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
+                  class="text-[#000b] md:text-[14px] text-[14px] ps-[2px] font-bold  md:ps-1 IN"
                   for="passwordConfirmation"
                 >
                   Gander
@@ -86,7 +86,7 @@ const Registration = () => {
 
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
+                  class="text-[#000b] md:text-[14px] text-[14px] ps-[2px] font-bold  md:ps-1 IN"
                   for="emailAddress"
                 >
                   Email Address
@@ -99,7 +99,7 @@ const Registration = () => {
               </div>
 
               <div className="password_2 block  relative">
-                <label class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN">
+                <label class="text-[#000b] md:text-[14px] text-[14px] ps-[2px] font-bold  md:ps-1 IN">
                   Password
                 </label>
                 <div className="eye_div">

@@ -19,8 +19,8 @@ const Login = () => {
   return (
     <>
       <div className="bg-[#F6F5F7] border-2">
-        <div class="text-center pt-4 pb-2">
-          <h2 class="mt-3 text-4xl font-bold text-[#2c293b]  GT">
+        <div class="text-center pt-1 md:pt-4 pb-2">
+          <h2 class="mt-3 text-[30px] md:text-4xl font-bold text-[#2c293b]  GT">
             Login as Existing Student
           </h2>
         </div>

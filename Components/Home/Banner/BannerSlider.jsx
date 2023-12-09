@@ -37,7 +37,7 @@ const BannerSlider = ({ datas }) => {
               }  `}
             >
               {/* --------------- body slider ------ */}
-              <div className=" w-[100%] mx-auto flex justify-center items-center">
+              <div className=" w-[100%]  mx-auto flex justify-center items-center">
                 <Image
                   width={1500}
                   height={1450}
@@ -45,7 +45,7 @@ const BannerSlider = ({ datas }) => {
                   // placeholder="blur"
                   src={item?.image}
                   alt={`Slide ${index + 1}`}
-                  className=" object-cover  "
+                  className=" object-cover "
                 />
               </div>
             </div>
