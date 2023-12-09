@@ -27,7 +27,7 @@ const Registration = () => {
             <div class="grid grid-cols-1 gap-x-6 gap-y-4 mt-4 sm:grid-cols-2 md:px-5">
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-2 IN"
+                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
                   for="username"
                 >
                   Full Name
@@ -41,7 +41,7 @@ const Registration = () => {
 
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-2 IN"
+                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
                   for="phone"
                 >
                   Student Roll
@@ -56,7 +56,7 @@ const Registration = () => {
 
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-2 IN"
+                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
                   for="phone"
                 >
                   Phone
@@ -71,7 +71,7 @@ const Registration = () => {
 
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-2 IN"
+                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
                   for="passwordConfirmation"
                 >
                   Gander
@@ -86,7 +86,7 @@ const Registration = () => {
 
               <div>
                 <label
-                  class="text-[#000b] md:text-[14px] font-bold  md:ps-2 IN"
+                  class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN"
                   for="emailAddress"
                 >
                   Email Address
@@ -99,7 +99,7 @@ const Registration = () => {
               </div>
 
               <div className="password_2 block  relative">
-                <label class="text-[#000b] md:text-[14px] font-bold  md:ps-2 IN">
+                <label class="text-[#000b] md:text-[14px] font-bold  md:ps-1 IN">
                   Password
                 </label>
                 <div className="eye_div">
@@ -111,7 +111,7 @@ const Registration = () => {
                   />
 
                   <div
-                    className="icon_button absolute right-4 top-12 cursor-pointer"
+                    className="icon_button absolute right-4 top-10 cursor-pointer"
                     onClick={handleClickShowPassword}
                   >
                     {passValue.showPassword ? (

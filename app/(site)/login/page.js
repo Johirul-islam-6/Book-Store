@@ -54,7 +54,7 @@ const Login = () => {
                   />
 
                   <div
-                    className="icon_button absolute right-4 top-12 cursor-pointer"
+                    className="icon_button absolute right-4 top-11 cursor-pointer"
                     onClick={handleClickShowPassword}
                   >
                     {passValue.showPassword ? (
